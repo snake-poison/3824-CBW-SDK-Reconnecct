@@ -17,7 +17,7 @@ const wagmiAdapter = useNuxtApp().$wagmiAdapter
 const metadata = {
   name: 'AppKit Button',
   description: 'AppKit Button',
-  url: 'https://appkit.reown.xyz',
+  url: 'https://lucky-starship-4e0e21.netlify.app',
   icons: ['https://appkit.reown.xyz/icon.png'],
 }
 

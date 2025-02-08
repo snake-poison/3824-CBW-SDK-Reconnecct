@@ -4,5 +4,10 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   future: {
     compatibilityVersion: 4
-  }
+  },
+  vue: {
+    compilerOptions: {
+      isCustomElement: (tag: string) => tag.startsWith('appkit-'),
+    },
+  },
 })
